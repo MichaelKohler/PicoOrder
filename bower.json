@@ -1,0 +1,14 @@
+{
+  "name": "PicoOrder",
+  "version": "0.0.1",
+  "dependencies": {
+    "ember": "1.2.0",
+    "ember-data-shim": "1.0.0-beta.2"
+  },
+  "resolutions": {
+    "ember": "1.0.0"
+  },
+  "devDependencies": {
+    "ember-mocha-adapter": "0.1.2"
+  }
+}
