@@ -1,15 +1,77 @@
-<section id="home" name="home"></section>
-<div id="headerwrap">
+<section id="login" name="login"></section>
+<div id="loginform">
     <div class="container">
-        <div class="row centered">
+        <div class="row">
             <div class="col-lg-6">
-                <h5>Register</h5>
-                <p>Guests can order online, live tracking for your staff in real-time.</p>
+                <h2>Register for free</h2>
+                <hr />
+                <form role="form" action="#" method="post" enctype="plain">
+                    <div class="form-group">
+                        <label for="email">eMail</label>
+                        <input type="text" name="email" class="form-control" id="email" placeholder="Your eMail address">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" class="form-control" id="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" class="form-control" id="confirm-password">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-large btn-info">Register</button>
+                </form>
             </div>
             <div class="col-lg-6">
-                <h5>Login</h5>
-                <p>Add food and drink categories, get a reporting of how many items you sold in real-time.</p>
+                <h2>Login</h2>
+                <hr />
+                <form role="form" action="#" method="post" enctype="plain">
+                    <div class="form-group">
+                        <label for="email2">eMail</label>
+                        <input type="text" name="email2" class="form-control" id="email2" placeholder="Your eMail address">
+                    </div>
+                    <div class="form-group">
+                        <label for="password2">Password</label>
+                        <input type="password" name="password2" class="form-control" id="password2">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-large btn-info">Login</button>
+                </form>
+            </div>
+        </div>
+        <hr />
+        <div class="row centered">
+            <div class="col-lg-12">
+                <p>If you experience any problems, please contact us and we'll help mitigate your problem.</p>
             </div>
         </div>
     </div>
 </div>
+
+<section id="contact" name="contact"></section>
+<div id="contactform">
+    <div class="container">
+        <div class="col-lg-12">
+            <h3>Contact us</h3>
+            <br>
+            <form role="form" action="#" method="post" enctype="plain">
+                <div class="form-group">
+                    <label for="name1">Your Name</label>
+                    <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email1">Email address</label>
+                    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label>Your Message</label>
+                    <textarea class="form-control" name="Message" rows="3"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-large btn-info">SUBMIT</button>
+            </form>
+            <br />
+        </div>
+    </div>
+</div>
+
