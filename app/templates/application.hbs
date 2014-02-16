@@ -1,25 +1,28 @@
-<div class="navbar navbar-fixed-top" data-activeslide="1">
-    <div class="container">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        </button>
-
-
-        <div class="nav-collapse collapse navbar-responsive-collapse">
-            <ul class="nav row">
-                <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-                <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT US</span></a></li>
-                <li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">PROCESS</span></a></li>
-                <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">CLIENTS</span></a></li>
-                <li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
-            </ul>
-            <div class="row">
-                <div class="col-sm-2 active-menu"></div>
-            </div>
+          </button>
+          <a class="navbar-brand" href="#"><b>PicoOrder</b></a>
         </div>
-    </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+            <li>{{#link-to 'faq'}}FAQ{{/link-to}}</li>
+            <li>{{#link-to 'pricing'}}Pricing{{/link-to}}</li>
+            <li>{{#link-to 'login'}}Register{{/link-to}}</li>
+          </ul>
+        </div>
+	</div>
 </div>
 
 {{outlet}}
+
+<div id="c">
+    <div class="container">
+        <p>Original Design Based On A Design By <a href="http://www.blacktie.co">blacktie.co</a></p>
+    </div>
+</div>
